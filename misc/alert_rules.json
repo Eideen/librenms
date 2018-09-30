@@ -1,5 +1,9 @@
 [
   {
+    "rule": "application_metrics.metric LIKE '%_id5%' AND application_metrics.app_id = 3 AND application_metrics.value > 1000",
+    "name": "Disk SMART ID 5 high",
+  }  
+  {
     "rule": "macros.device_down = \"1\"",
     "name": "Devices up/down",
     "default": true
